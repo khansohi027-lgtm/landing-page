@@ -1,0 +1,483 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    html{
+        scroll-behavior: smooth;
+    }
+  
+
+    
+
+
+
+/* GLOBAL STYLES */
+body {
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* HEADER */
+header {
+    background: white;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: rgb(216, 107, 18);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+.logo span {
+    color: orangered;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00bcd4;
+    text-decoration: underline;
+}
+
+
+
+/* HERO SECTION */
+.hero {
+    background-image: url(../IMAGES/landing-page.jpeg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+}
+
+.btn {
+    display: inline-block;
+    background: blue;
+    color: white;
+    padding: 4px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background 0.3s;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: #12379e;
+}
+
+/* feather section starts here */
+
+.icon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#feature-section>h2{
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+
+}
+
+.fa-bullhorn {
+    font-size: 70px;
+   
+    
+
+}
+
+.fa-comments {
+
+    font-size:  10px;
+    
+ 
+}
+
+.fa-solid {
+    font-size: 40px;
+     
+
+}
+
+
+.feature {
+    padding-top: 50px;
+ background-color: rgb(204, 211, 211);
+ width: 100%;
+ height: 100%;
+
+}
+
+.feature>h2 {
+    font-size: 50px;
+text-decoration: underline;
+color: black;
+padding-top: 100px;
+text-align: center;
+}
+
+
+.icon {
+    padding-top: 120px;
+justify-content: space-between;
+display: flex;
+}
+
+
+/* feather section ends here */
+
+/* about section starts here */
+#about{
+margin-top: 50px;
+
+}
+.about {
+    padding-top: 100px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+     background-color: rgb(213, 221, 221);
+}
+
+#khan{
+position: absolute;
+top: 1300px;
+left: 50%;
+font-size: 35px;
+text-decoration: underline;
+}
+
+.about-pick {
+    background-image: url(../IMAGES/about-pick.jpeg);
+    width: 600PX;
+    height: 600PX;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.about-discrption {
+    width: 400px;
+    height: 600px;
+margin-top: 50px;
+
+}
+
+.flex-item {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.about-discrption>h2 {
+    padding-top: 40px;
+    color: black;
+
+
+}
+
+
+
+/* about section ends here */
+
+/* Gallery section starts here */
+.gallery {
+    width: 100%;
+    height: 100%;
+    
+  
+}
+
+.galler1 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../IMAGES/./gallery1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.gallery2 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../IMAGES/gallery9.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.gallery3 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../IMAGES/gallery3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+
+}
+
+.gallery4 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../IMAGES/gallery4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.gallery5 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../IMAGES/gallery5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.gallery6 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../IMAGES/gallery6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.gallery7 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../IMAGES/gallery7.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.gallery8 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../IMAGES/gallery8.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.gallery9 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../IMAGES/gallery2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.gallery {
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(213, 221, 221);
+}
+
+.gallery>h1 {
+    text-align: center;
+font-size: 50px;
+text-decoration: underline;
+padding-top: 30px;
+color: black;
+}
+
+.gallery>p {
+    text-align: center;
+    color: black;
+
+}
+
+.g1 {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.g2 {
+    display: flex;
+
+    margin-left: 200px;
+}
+
+.g3 {
+    display: flex;
+
+    margin-left: 200px;
+}
+
+/* Gallery section ends here */
+
+/* team section starts here */
+.team{
+
+width: 100%;
+height: 100;
+background-color: #efecf3;
+}
+.team-description>h1{
+    text-align: center;
+    padding-top: 100px;
+    color: black;
+    font-size: 50px;
+}
+.team-description>p{
+text-align: center;
+color: black;
+padding-top: 30px;
+
+}
+
+.team-mates{
+    height: 700px;
+    width: 700px;
+    /* border: 2px solid black; */
+    display: flex;
+    /* justify-content:space-around; */
+    margin-left: 300px;
+    padding-top: 70px;
+    gap: 30px;
+    margin-top: 50px;
+}
+.mates{
+   width: 200px; 
+   height: 200px;
+   border: 2px solid black;
+   justify-content:space-between
+   
+}
+.mate{
+padding-top: 230px;
+}
+.mate>h1{
+   font-size: 30px; 
+   color: black;
+}
+.mate>p{
+    font-size: 15px;
+    color: black;
+    padding-top: 10px;
+}
+
+
+.mt1{
+    background-image: url(../IMAGES/mt4.jpeg);
+    background-size: cover;
+}
+.mt2{
+    background-image: url(../IMAGES/mt1.jpeg);
+    background-size: cover;
+}
+.mt3{
+    background-image: url(../IMAGES/mt3.jpeg);
+    background-size: cover;
+}
+.mt4{
+     background-image: url(../IMAGES/mt2.jpeg);
+    background-size: cover;
+}
+/* team section ends here */
+
+
+/* contact section starts here */
+
+.contact{
+background-color: rgb(126, 135, 221);
+width: 100%;
+height: 100%;
+/* border: 2px solid black; */
+display: flex;
+justify-content: space-around;
+margin-top: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.form{
+    padding-top: 50px;
+    /* border: 2px solid black; */
+}
+.button{
+    /* border: 2px solid black; */
+}
+.button>button{
+    
+    width: 200px;
+    height:60px;
+    border-radius: 30%;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+   margin-top: 40px;
+   color: black;
+}
+.button>button:hover{
+    background-color: rgb(121, 134, 134);
+scale: 0.9;
+}
+/* contact section ends here */
+
+media screen and (min-wigth : 480px){
+    body{
+
+    } 
+}
